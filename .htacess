@@ -1,0 +1,5 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
