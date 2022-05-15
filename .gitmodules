@@ -1,0 +1,3 @@
+[submodule "Miner"]
+	path = Miner
+	url = https://github.com/ChpssCode/Miner
