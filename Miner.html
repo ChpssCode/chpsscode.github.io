@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miner</title>
+    <style>
+        body {
+  background-color: #000000;
+  margin: 0px;
+}
+    </style>
+</head>
+<body>
+    
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    <script src="js/startscreen.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/index.js"></script>
+    
+    <!---Preload--->
+    <script src="js/preload/preloadImages.js"></script>
+    
+    <!---Create--->
+    <script src="js/create/createKeys.js"></script>
+    <script src="js/create/createText.js"></script>
+    
+    <!--Create Objects-->
+    <script src="js/create/createObjects/createBackground.js"></script>
+    <script src="js/create/createObjects/createShip.js"></script>
+    <script src="js/create/createObjects/createFactoryButton.js"></script>
+    <script src="js/create/createObjects/createTerra.js"></script>
+
+    <!--Create Conversions-->
+    <script src="js/create/Convert/convertWatertoFuel.js"></script>
+    <script src="js/create/Convert/convertHydrogenToFuel.js"></script>
+
+    <!---Update--->
+    <script src="js/update/shipMovement.js"></script>
+    <script src="js/update/factory.js"></script>
+    <script src="js/update/textUpdate.js"></script>
+</body>
+</html>
